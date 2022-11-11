@@ -1,3 +1,29 @@
-.App {
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
 
+#app {
+  #app-header {
+    // width: 100%;
+    // height: 100%;
+    color: blue;
+  }
+
+  .top-nav {
+    align-items: center;
+    background-color: $background-primary;
+    display: flex;
+    flex-flow: row wrap;
+    gap: $gutter;
+  }
+
+  // #app-main {
+  // }
+
+  // #app-footer {
+  // }
+}
+
+.container {
+  @include container($max-width);
+  
 }

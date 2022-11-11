@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### web
+https://hocwebchuan.com/tutorial/jquery/
+
+### scss
+@content - thêm thuộc tính
+
+$box-style1: 5px, solid, red;
+$box-style2: (bStyle: dotted, bColor: blue, bWidth: medium);
+
+@mixin boxy($bWidth, $bStyle, $bColor) {
+  border-width: $bWidth;
+  border-style: $bStyle;
+  border-color: $bColor;
+}
+
+.first {
+  @include boxy($box-style1...);
+}
+
+.second {
+  @include boxy($box-style2...);
+}
