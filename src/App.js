@@ -4,13 +4,13 @@ import './style/_main.scss';
 function App() {
   return (
     <div id="app">
-      <div id="app-header" class="container top-nav">
+      <div id="app-header">
         <Header/>
       </div>
-      <main class="app-main">
+      <main id="app-main">
           
       </main>
-      <footer class="app-footer">
+      <footer id="app-footer">
           
       </footer>
     </div>

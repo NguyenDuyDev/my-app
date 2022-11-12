@@ -1,24 +1,21 @@
 
 function Nav() {
-    return(
-        <div className={'top-main-nav'}>
-            <div>
-                <img src="../../assets/image-logo.jpg" alt=""/>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#"></a>CSS</li>
-                    <li><a href="#"></a>DOM</li>
-                    <li><a href="#"></a>React</li>
-                </ul>
-            </nav>
-            <div>
-                <a href="#">Theme</a>
-            </div>
-            <div>
-                <a href="#">Login</a>
-            </div>
-        </div>
+    return (
+        <nav className='top-nav-wrap'>
+            <ul>
+                <li>
+                    <a href="###">Fontend</a>
+                    {/* <ul>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">DOM</a></li>
+                        <li><a href="#">React</a></li>
+                    </ul> */}
+                </li>
+                <li>
+                    <a href="###">Backend</a>
+                </li>
+            </ul>
+        </nav>
     )
 }
 

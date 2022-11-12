@@ -1,0 +1,19 @@
+@import "../abstracts/mixins";
+
+
+.top-nav {
+    align-items: center;
+    background-color: $background-primary;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: $gutter;
+}
+
+.container {
+    @include container($max-width, $top-navigation-height);
+}
+
+img {
+    @include icon-img(3.5rem, 3.5rem)
+}
